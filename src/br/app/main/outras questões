@@ -1,0 +1,40 @@
+3) 
+Os valores são somados aos números ímpares
+
+a) 1, 3, 5, 7, 9 (1+1 =2, 1+2 = 3, 3+2 = 5, 3 + 5...)
+b) 128
+c) 49
+d) 25
+e) 13
+f) 22   
+
+
+4) 
+
+carro = 110km/h
+caminhão = 80km/h
+distancia entra cidades = 100km
+
+
+
+sa = 0 + 110.t
+sb = 100 + 80t
+sa = sb
+110.t = 100 - 80t
+110t + 80t = 100
+190t = 100
+t = 0.5h
+
+sa = 110t
+sa = 110 / 0.5
+sa = 55km (ponto de encontro)
+
+distancia que percore caminhao = 80/0.5 = 160m 
+distancia que percore veiculo = 110 / 0.5 = 220m
+
+
+O caminhão percorreu no ponto de encontro 160-55 = 105 durante 0.5
+o veiculo percorreu no ponto de encontro 220 - 55 = 165 durante 0.5
+
+O veículo está mais proximo de ribeirão preto
+

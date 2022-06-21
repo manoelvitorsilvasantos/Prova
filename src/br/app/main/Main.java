@@ -14,6 +14,7 @@ import java.util.Scanner;
 public class Main {
     
     
+    
     public Main(){
         Scanner leitura = new Scanner(System.in);
         int opc = 0;
@@ -59,11 +60,32 @@ public class Main {
     }
     
     public void questao2(){
-       
+        int n1 = 0, n2 = 1, n3 = 0, i;
+        Scanner scan = new Scanner(System.in);
+        
+        System.out.println("Digite o valor de x >> ");
+        i = scan.nextInt();
+        
+        while(i < n3)
+        {
+            n3 = n1 + n2;
+            n1 = n2;
+            n2 = n3;
+        }
+        
+        if(i == 0){
+            System.out.println("O numero 0 está na sequência de fibonnaci. \n0 próximo número é: 1");
+        }
+        else if(i == n3){
+            System.out.println("O numero " + i +" está na sequência de fibonnaci. \n0 próximo número é: " + (n1 + i));
+        }
+        else{
+            System.out.println("Esse número não faz parte da sequência de fibonnaci!");
+        }
     }
     
     public void questao3(){
-        System.out.println("Ainda não está pronta!!!");
+        
     }
     
     public void questao4(){
