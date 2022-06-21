@@ -93,7 +93,21 @@ public class Main {
     }
     
     public void questao5(){
-        System.out.println("Ainda não está pronta!!!");
+        Scanner scan = new Scanner(System.in);
+        String texto = null;
+        String reverso = "";
+        System.out.println("Digite um nome: ");
+        texto = scan.nextLine();
+        int cont = texto.length()-1;
+        
+        
+        for(int i = cont; 0 <= i; i--){
+            reverso += texto.charAt(cont);
+            cont  = cont - 1 ;
+        }
+        
+        System.out.println(String.valueOf(reverso));
+        
     }
     
 
